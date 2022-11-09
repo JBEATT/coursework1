@@ -16,15 +16,15 @@ expectedEuros1="1.19 Euros"
 actual1=$(java CurrencyConverter $input1)
 
 if [[ $actual1 == *$expectedDollars1* ]]; then 
-        echo "Test Passed"
+        echo "Dollars Test Passed"
 else
-        echo "Test Failed"
+        echo "Dollars Test Failed"
 	exit 1
 fi
 
 if [[ $actual1 == *$expectedEuros1* ]]; then
-        echo "Test Passed"
+        echo "Euros Test Passed"
 else
-        echo "Test Failed"
+        echo "Euros Test Failed"
         exit 1
 fi
