@@ -14,17 +14,17 @@ actual1=$(java CurrencyConverter $input1)
 
 #Checks if actual output is the same as expected and passes or fails and exits
 if [[ $actual1 == *$expectedPounds1* ]]; then
-	echo "Test Passed"
+	echo "Pounds Test Passed"
 else
-	echo "Test Failed"
+	echo "Pounds Test Failed"
 	exit 1
 fi
 
 #Checks if actual output is the same as expected and passes or fails and exits
 if [[ $actual1 == *$expectedEuros1* ]]; then
-	echo "Test Passed"
+	echo "Euros Test Passed"
 else
-	echo "Test Failed"
+	echo "Euros Test Failed"
 	exit 1
 fi
 #echo "Exit Code: $?" #prints exit code 0 means pass any other number means fail
@@ -42,17 +42,17 @@ actual2=$(java CurrencyConverter $input2)
 
 #Checks if actual output is the same as expected and passes or fails and exits
 if [[ $actual2 == *$expectedDollars1* ]]; then 
-        echo "Test Passed"
+        echo "Dollars Test Passed"
 else
-        echo "Test Failed"
+        echo "Dollars Test Failed"
 	exit 1
 fi
 
 #Checks if actual output is the same as expected and passes or fails and exits
 if [[ $actual2 == *$expectedEuros2* ]]; then
-        echo "Test Passed"
+        echo "Euros Test Passed"
 else
-        echo "Test Failed"
+        echo "Euros Test Failed"
         exit 1
 fi
 #echo "Exit Code: $?" #prints exit code 0 means pass any other number means fail
@@ -70,17 +70,17 @@ actual3=$(java CurrencyConverter $input3)
 
 #Checks if actual output is the same as expected and passes or fails and exits
 if [[ $actual3 == *$expectedDollars2* ]]; then
-        echo "Test Passed"
+        echo "Dollars Test Passed"
 else
-        echo "Test Failed"
+        echo "Dollars Test Failed"
 	exit 1
 fi
 
 #Checks if actual output is the same as expected and passes or fails and exits
 if [[ $actual3 == *$expectedPounds2* ]]; then
-        echo "Test Passed"
+        echo "Pounds Test Passed"
 else
-        echo "Test Failed"
+        echo "Pounds Test Failed"
         exit 1
 fi
 #echo "Exit Code: $?" #prints exit code 0 means pass any other number means fail
