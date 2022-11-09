@@ -36,7 +36,7 @@ public class CurrencyConverter {
                                 System.out.println(amount + " Euros = " + f.format(pound) + " Pounds");
                                 break;
                 }
-                System.out.println("Thank you for using James' TEST2 converter.");
+                System.out.println("Thank you for using James' converter.");
         }
 
 }
