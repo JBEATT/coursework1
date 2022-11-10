@@ -8,7 +8,7 @@
 #  java CurrencyConverter $lowerstr
 #fi
 
-#Testing for upper case
+#TASK 5 (b)
 echo -e "-----------------------\nTest 1 INPUT: 1 POUNDS\n-----------------------"
 
 #Assigning input variable
