@@ -1,13 +1,5 @@
 #!/bin/bash
 #POUNDS, Pounds, DOLLARS, Dollars, EUROS, Euros
-#input="1 Pounds"
-
-#if [[ "$input" =~ [[:upper:]] ]]; then
-#  echo "uppercase character found"
-#  lowerstr=$(echo $input | tr '[:upper:]' '[:lower:]')
-#  java CurrencyConverter $lowerstr
-#fi
-
 #TASK 5 (b)
 echo -e "-----------------------\nTest 1 INPUT: 1 POUNDS\n-----------------------"
 
@@ -149,7 +141,7 @@ else
         exit 1
 fi
 
-echo -e "----------------------\nTest 5 INPUT: 1 Euros\n----------------------"
+echo -e "----------------------\nTest 6 INPUT: 1 Euros\n----------------------"
 
 #Assigning input variable
 input6="1 Euros"

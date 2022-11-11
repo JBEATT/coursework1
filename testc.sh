@@ -1,4 +1,5 @@
 #!/bin/bash
+#1 dollars, 1 pounds, 1 euros
 #TASK 5 (c)
 echo -e "------------------------\nTest 1 INPUT: 1 dollars\n------------------------"
 
