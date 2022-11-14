@@ -11,7 +11,7 @@ expectedPounds1="0.74 Pounds"
 expectedEuros1="0.88 Euros"
 
 #Assigning variable to output of java program using input variable
-actual1=$(java CurrencyConverter $input1)
+actual1=$(java coursework1/CurrencyConverter $input1)
 
 #Checks if actual output is the same as expected and passes or fails and exits
 if [[ $actual1 == *$expectedPounds1* ]]; then
@@ -39,7 +39,7 @@ expectedDollars1="1.36 Dollars"
 expectedEuros2="1.19 Euros"
 
 #Assigning variable to output of java program using input variable
-actual2=$(java CurrencyConverter $input2)
+actual2=$(java coursework1/CurrencyConverter $input2)
 
 #Checks if actual output is the same as expected and passes or fails and exits
 if [[ $actual2 == *$expectedDollars1* ]]; then 
@@ -67,7 +67,7 @@ expectedDollars2="1.13 Dollars"
 expectedPounds2="0.84 Pounds"
 
 #Assigning variable to output of java program using input variable
-actual3=$(java CurrencyConverter $input3)
+actual3=$(java coursework1/CurrencyConverter $input3)
 
 #Checks if actual output is the same as expected and passes or fails and exits
 if [[ $actual3 == *$expectedDollars2* ]]; then

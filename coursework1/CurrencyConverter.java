@@ -1,3 +1,5 @@
+package coursework1;
+
 import java.text.DecimalFormat;
 
 public class CurrencyConverter {
@@ -27,7 +29,6 @@ public class CurrencyConverter {
                                 System.out.println(f.format(amount) + " Dollars = " + f.format(pound) + " Pounds");
                                 euro = amount * 0.88;
                                 System.out.println(f.format(amount) + " Dollars = " + f.format(euro) + " Euros");
-                                // }
                                 break;
                         case "pounds":
                                 // For Pound Conversion
