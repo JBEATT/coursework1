@@ -1,4 +1,4 @@
-package coursework1;
+package coursework;
 
 import java.text.DecimalFormat;
 
