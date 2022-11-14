@@ -48,7 +48,7 @@ public class CurrencyConverter {
                                 System.out.println(
                                                 "Incorrect Usage. Please use one of the following currencies: dollars, pounds or euros");
                 }
-                System.out.println("Thank you for using James' converter.");
+                System.out.println("Thank you for using James' Offical converter.");
         }
 
 }
